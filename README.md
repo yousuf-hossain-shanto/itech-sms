@@ -2,7 +2,7 @@
 
 ### Installation
 
-`composer require yhshanto/itech-sms`
+`composer require yhshanto/itech-sms-channel`
 
 ### Configuration
 
