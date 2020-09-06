@@ -1,0 +1,29 @@
+{
+    "name": "yhshanto/itech-sms-channel",
+    "description": "Itech flexible sms Notification Channel for laravel.",
+    "keywords": ["laravel", "notifications", "itech"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yousuf Hossain",
+            "email": "yousuf.hossain.shanto@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/notifications": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YHShanto\\ItechSMS\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YHShanto\\ItechSMS\\ItechSMSChannelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
